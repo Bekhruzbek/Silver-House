@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.item {
+    width: 1110px;
+    margin: 50px auto;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+header{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    width: 1500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul {
+    text-align: center;
+    list-style: none;
+    display: flex;
+}
+li {
+    margin: 20px;
+}
+.img {
+    width: 1110px;
+    height: 450px;
+}
+main {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin:30px auto;
+}
+.main_left {
+    width: 596px;
+    padding: 49px 95px 67px 40px;
+    background: #f0f0f0;
+}
+.main_left h3 span{
+    padding-left: 200px;
+}
+.main_right {
+    width: 257px;
+    padding: 49px 54px 0 40px;
+    background: #f0f0f0;
+}
+main h2 {
+    color: #4581b7;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+main p {
+    color: #7f7f7f;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.main_p2 {
+    margin-top: 48px;
+}
+.main_p3 {
+    margin-top: 50px;
+}
+.footer{
+    width: 1030px;
+    display: flex;
+    justify-content: space-between;
+    margin:30px auto;
+    background: #f0f0f0;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    margin-top: 0px;
+
+  padding: 20px 40px;
+}
+.image{
+    width: 130px ;
+    background: #f0f0f0;
+}
+.num{
+    color: #999999;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Bitter'; 
+}
+.asd{
+    color: #999999;   
+}
+a{
+    text-decoration: none;
+    color: #cccccc;
+    font-family: 'Bitter'; 
+}
+header nav ul li a:hover{
+    color: #4581b7;
+    text-decoration: underline;
+}
+h3{
+    color: #4581b7;
+    font-family: 'Bitter'; 
+}
+.imgsh{
+    margin-top: 30px;
+}
+p{
+    font-family: 'Bitter'; 
+}
+@media(max-width:768px){
+    
+    .container{
+       flex-wrap: wrap;
+   }
+    .main_left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    main h3{
+        font-size: 40px;
+        text-align: center;
+        /* font-family: 'Bitter'; */
+    }
+    main p{
+        font-size: 25px;
+        text-align: center;
+        /* font-family: 'Bitter'; */
+    }
+    footer p{
+        font-size: 30px;
+        /* font-family: 'Bitter'; */
+    }
+    .footer-image{
+        width: 130px;
+       
+    }
+    .main_right{
+        width: 100%; 
+    }
+    header .imgsh{
+        text-align: center;
+    }
+    header nav{
+        text-align: center;
+    }
+    main{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .main_left h3{
+        margin-bottom: 15px;
+    }
+    .main_right h3{
+        margin-bottom: 15px;
+    }
+}
